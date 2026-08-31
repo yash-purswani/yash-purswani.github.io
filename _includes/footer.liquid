@@ -1,0 +1,20 @@
+<footer class="sticky-bottom mt-5" role="contentinfo">
+  <div class="container site-footer">
+    <p class="footer-identity">
+      <span class="footer-name">{{ site.first_name }} {{ site.last_name }}</span>
+      <span class="footer-role">Robotics Researcher · IIT Madras</span>
+    </p>
+
+    <div class="footer-links">{% social_links %}</div>
+
+    <p class="footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}
+      {% if site.impressum_path %}
+        · <a href="{{ site.impressum_path | relative_url }}">Impressum</a>
+      {% endif %}
+      {% if site.last_updated %}
+        · Last updated {{ 'now' | date: '%B %d, %Y' }}
+      {% endif %}
+    </p>
+  </div>
+</footer>

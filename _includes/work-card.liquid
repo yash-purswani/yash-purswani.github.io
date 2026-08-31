@@ -1,0 +1,71 @@
+{% comment %}
+  Shared horizontal card used by both /research/ and /projects/.
+
+  Desktop: media on the left, information on the right.
+  Mobile:  media stacked above the information.
+
+  A link button is rendered only when a real URL is present — missing
+  resources are omitted entirely rather than linked to "#".
+
+  Params: item (entry from _data/research.yml or _data/projects.yml),
+          kind ("research" | "project")
+{% endcomment %}
+
+{% assign item = include.item %}
+{% assign kind = include.kind | default: 'project' %}
+
+<article class="work-card work-card--{{ kind }}" id="{{ item.id }}">
+  {% include card-media.liquid item=item kind=kind %}
+
+  <div class="card-body">
+    <h3 class="card-title{% if item.title_is_placeholder %} is-placeholder{% endif %}">{{ item.title }}</h3>
+
+    {% if item.context %}
+      <p class="card-context">{{ item.context }}</p>
+    {% endif %}
+
+    <p class="card-meta">
+      {% if item.role %}<span class="card-role">{{ item.role }}</span>{% endif %}
+      {% if item.affiliation %}<span class="card-affiliation">{{ item.affiliation }}</span>{% endif %}
+      {% if item.supervisor and item.supervisor != '' %}<span class="card-supervisor">{{ item.supervisor }}</span>{% endif %}
+      {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
+    </p>
+
+    {% if item.description %}
+      <ul class="card-description{% if item.description_is_placeholder %} is-placeholder{% endif %}">
+        {% for line in item.description %}
+          <li>{{ line }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if item.tags %}
+      <ul class="card-tags" aria-label="Topics">
+        {% for tag in item.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% assign has_links = false %}
+    {% if item.paper != blank or item.code != blank or item.project != blank or item.demo != blank %}
+      {% assign has_links = true %}
+    {% endif %}
+    {% if has_links %}
+      <p class="card-links">
+        {% if item.paper != blank %}
+          <a class="card-link" href="{{ item.paper }}">Paper</a>
+        {% endif %}
+        {% if item.code != blank %}
+          <a class="card-link" href="{{ item.code }}">Code</a>
+        {% endif %}
+        {% if item.demo != blank %}
+          <a class="card-link" href="{{ item.demo }}">Demo</a>
+        {% endif %}
+        {% if item.project != blank %}
+          <a class="card-link" href="{{ item.project }}">Project</a>
+        {% endif %}
+      </p>
+    {% endif %}
+  </div>
+</article>

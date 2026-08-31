@@ -1,0 +1,19 @@
+# Manuscripts in preparation, rendered at the bottom of /research/.
+# These are NOT published papers — the `status` string is displayed verbatim.
+# Add pdf/arxiv/doi/code only when a real link exists.
+- title: Rule-Constrained Adversarial Scenario Generation
+  venue: IEEE Intelligent Vehicles Symposium (IV)
+  year:
+  status: Manuscript in preparation
+  pdf:
+  arxiv:
+  doi:
+  code:
+- title: Robust Finite-Time Control of Multi-Agent Swarms
+  venue: IEEE American Control Conference (ACC)
+  year: 2027
+  status: Manuscript in preparation
+  pdf:
+  arxiv:
+  doi:
+  code:

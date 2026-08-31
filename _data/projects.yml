@@ -1,0 +1,128 @@
+# Applied robotics / engineering projects, rendered by _includes/project-card.liquid
+# on /projects/. Only real URLs belong in `code:`, `demo:` and `project:` — empty
+# values are skipped and no button is rendered.
+#
+# `team_context: abhiyaan` marks the cards that belong to Team Abhiyaan; the
+# Team Abhiyaan context block is rendered immediately before the first of them.
+
+- id: 3d-reconstruction
+  title: Multi-View 3D Scene Reconstruction for Robotic Perception
+  affiliation: Department of Data Science and AI (DSAI), IIT Madras
+  supervisor: Dr. Sudarsun Santhiappan
+  date: Mar 2026 – May 2026
+  description:
+    - Built a multi-view 3D reconstruction pipeline from unordered images using structure-from-motion, feature matching and dense reconstruction.
+    - Estimated camera trajectories and dense point clouds using multi-view geometry for robotic scene understanding.
+    - Developed an end-to-end scalable pipeline for reconstructing real-world 3D environments, with containerised deployment.
+  tags:
+    - 3D Reconstruction
+    - Robot Perception
+    - Computer Vision
+    - SfM
+    - Multi-View Geometry
+  image: /assets/img/projects/3d-reconstruction.jpg
+  video: /assets/video/projects/3d-reconstruction.mp4
+  alt: Dense 3D point cloud reconstructed from unordered multi-view images.
+  code: https://github.com/yash-purswani/MLOps-Project-ME22B214
+  demo:
+  project:
+
+- id: arcd
+  title: Autonomous Road Dust Collector
+  affiliation: Department of Civil Engineering, IIT Madras
+  supervisor: Prof. Sivanagendra SM
+  date: Nov 2025 – Mar 2026
+  description:
+    - Developed an autonomous road dust collection robot for unmanned operation in sub-urban environments.
+    - Implemented 3D LiDAR-based odometry and mapping using FAST-LIO2, with NDT-based localisation for pose estimation.
+    - Incorporated Lanelet-based semantic road modelling for path planning and context-aware autonomous navigation.
+    - Performed system performance evaluation and failure-mode analysis using time-series sensor data and simulation logs.
+  tags:
+    - Autonomous Navigation
+    - LiDAR
+    - FAST-LIO2
+    - NDT Localisation
+    - Lanelets
+    - ROS2
+  image: /assets/img/projects/arcd.jpg
+  video: /assets/video/projects/arcd.mp4
+  alt: Placeholder for media from the autonomous road dust collector project.
+  code:
+  demo:
+  project:
+
+- id: uav-ugv
+  title: Optimal Rendezvous Trajectory for Unmanned Aerial-Ground Vehicles
+  affiliation: Department of Electrical Engineering, IIT Madras
+  supervisor: Prof. Rachel Kalpana Kalaimani
+  date: Mar 2025 – May 2025
+  description:
+    - Designed an optimal control framework for UAV–UGV rendezvous and in-motion refuelling under non-linear dynamics.
+    - Developed a trajectory-tracking and aggressiveness-index-based control strategy enabling tunable rendezvous behaviour.
+    - Validated the method through numerical simulations in PRONTO, demonstrating robust convergence and adaptability.
+  tags:
+    - UAV-UGV Coordination
+    - Optimal Control
+    - Trajectory Tracking
+    - Nonlinear Dynamics
+  image: /assets/img/projects/uav-ugv.jpg
+  video: /assets/video/projects/uav-ugv.mp4
+  alt: Placeholder for media from the UAV-UGV optimal rendezvous project.
+  code:
+  demo:
+  project:
+
+- id: bolt
+  title: BOLT — Driverless Institute Shuttle
+  affiliation: Team Abhiyaan, IIT Madras
+  supervisor: Prof. Sathyan Subbiah
+  # TODO(placeholder): the CV gives no start/end dates for BOLT; add them here
+  # once confirmed. The Team Abhiyaan block above already covers Apr 2023 – May 2026.
+  date:
+  team_context: abhiyaan
+  description:
+    - Developed and fully deployed a ROS-based autonomy stack on an electric golf cart, turning it into a driverless institute shuttle.
+    - Achieved 98.3% accuracy using 3D LiDAR–camera sensor fusion for object classification and distance estimation.
+    - Leveraged realistic CARLA and Gazebo simulations to comprehensively test the software subsystem for BOLT.
+    - Integrated the autonomous software modules to achieve reliable end-to-end operation of the shuttle.
+  tags:
+    - ROS2
+    - Autonomous Vehicles
+    - LiDAR-Camera Fusion
+    - Perception
+    - Navigation
+    - CARLA
+    - Gazebo
+  image: /assets/img/projects/bolt.jpg
+  video: /assets/video/projects/bolt.mp4
+  alt: Placeholder for media of the BOLT driverless institute shuttle.
+  code:
+  demo:
+  project:
+
+- id: vidyut
+  title: Vidyut — IGVC 2024 Autonomous Vehicle
+  affiliation: Team Abhiyaan, IIT Madras
+  supervisor:
+  date: Intelligent Ground Vehicle Competition (IGVC) 2024, Michigan, USA
+  team_context: abhiyaan
+  description:
+    - Developed a ROS2-based navigation stack integrating Nav2, SLAM and sensor fusion for autonomous navigation.
+    - Implemented ORB-SLAM3, SLAM Toolbox, CUDA-accelerated perception and EKF-based multi-sensor fusion for robust localisation.
+    - Led software development and system integration for reliable autonomous vehicle deployment at IGVC 2024.
+    - Secured 7th overall among 30+ international teams and 6th in the Design Challenge at IGVC 2024.
+  tags:
+    - ROS
+    - ROS2
+    - Nav2
+    - SLAM
+    - ORB-SLAM3
+    - Sensor Fusion
+    - CUDA
+    - Autonomous Vehicles
+  image: /assets/img/projects/vidyut.jpg
+  video: /assets/video/projects/vidyut.mp4
+  alt: Placeholder for media of Vidyut, the IGVC 2024 autonomous vehicle.
+  code:
+  demo:
+  project:

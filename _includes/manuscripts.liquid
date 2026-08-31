@@ -1,0 +1,21 @@
+{% comment %}
+  Manuscripts in preparation. Explicitly labelled — these are not published
+  papers, and no link is rendered unless a real URL exists in _data/manuscripts.yml.
+{% endcomment %}
+<ol class="manuscripts">
+  {% for m in site.data.manuscripts %}
+    <li class="manuscript">
+      <span class="manuscript-title">{{ m.title }}</span>
+      <span class="manuscript-venue">{{ m.venue }}{% if m.year %}, {{ m.year }}{% endif %}</span>
+      <span class="manuscript-status">{{ m.status }}</span>
+      {% if m.pdf != blank or m.arxiv != blank or m.doi != blank or m.code != blank %}
+        <span class="card-links">
+          {% if m.pdf != blank %}<a class="card-link" href="{{ m.pdf }}">PDF</a>{% endif %}
+          {% if m.arxiv != blank %}<a class="card-link" href="{{ m.arxiv }}">arXiv</a>{% endif %}
+          {% if m.doi != blank %}<a class="card-link" href="{{ m.doi }}">DOI</a>{% endif %}
+          {% if m.code != blank %}<a class="card-link" href="{{ m.code }}">Code</a>{% endif %}
+        </span>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,313 @@
+\documentclass[11pt,a4paper,calibri]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\renewcommand*{\namefont}{\fontsize{20}{20}\mdseries\upshape}
+% character encoding
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+\usepackage{ifthen} % Required for ifthenelse statements
+\usepackage[export]{adjustbox}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikzpagenodes}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[0.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+\usepackage[left=0.28in,top=0.6in,right=0.28in,bottom=0.6in]{geometry} % Document margins
+
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+%\usepackage{import}
+\usepackage{enumitem}
+\usepackage{url}
+% \hypersetup{linkcolor=blue}
+% \renewcommand{\baselinestretch}{0.5}
+
+% personal data
+\name{YASH}{PURSWANI}                              % optional, remove / comment the line if not wanted
+% \address{Indian Institute of Technology, Madras, India}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 9079862414}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+ %\phone[fax]{\\[-0.001cm]}                      % optional, remove / comment the line if not wanted
+\email{yashpurswani4@gmail.com}                         % optional, remove / comment the line if not wanted
+\homepage{yash-purswani.github.io}        % optional, remove / comment the line if not wanted
+\extrainfo{\href{}{Google Scholar}}                 % optional, remove / comment the line if not wanted
+% \photo[62 pt][0.2 pt]{iitm_logo.png}                       % optional, remove / comment the line if not wanted; '62pt' is the height the picture must be resized to, 0.2pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+%\vspace{-20pt}
+%\small{Final year undergraduate at IIT Bombay pursuing a major in Computer Science and Engineering with honors, applying for masters in Computer Science}
+% \vspace{12pt}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+ %{\textbf{Homepage:} \url{www.cse.iitb.ac.in/\textasciitilde utkarshk}}
+%\begin{tikzpicture}[remember picture,overlay]
+%\node[anchor=west,inner sep=-1pt] at (current page text area.west|-0,2.5cm){\includegraphics[scale=0.05]{logo.png}};
+%\end{tikzpicture}
+\vspace{-0.5 in}
+\section{Education}
+
+\begin{itemize}[leftmargin=0.0in]
+\setlength\itemsep{.1em}
+
+\cventry{\textbf{9.24/10.00}}{}{Indian Institute of Technology Madras}{\textmd{Jul 2022 - Jul 2027}}{}{  \setlength\itemsep{.3em}
+\vspace{-10 pt}
+\item[]\textit{B.Tech. in Mechanical Engineering and Inter-Disciplinary M.Tech. in Data Science}
+}
+\vspace{-6 pt}
+
+\end{itemize}
+\vspace{-15 pt}
+
+\section{Research Interests}
+
+\hspace{1em} Robot Perception · Multi-Robot Control · Reinforcement Learning · Autonomous Systems
+\vspace{-6pt}
+
+\section{Publications}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.2em}
+
+\item Rule-Constrained Adversarial Scenario Generation, \textit{IEEE Intelligent Vehicles Symposium (IV)}, Manuscript in preparation
+\vspace{-1 pt}
+\item Robust Finite-Time Control of Multi-Agent Swarms, \textit{IEEE American Control Conference (ACC)}, 2027, Manuscript in preparation
+\vspace{-1.5 pt}
+\end{itemize}
+\vspace{-15 pt}
+
+\section{Research and Project Experience}
+
+\begin{itemize}[leftmargin=0.0in]
+\setlength\itemsep{.2em}
+
+\cventry{(Sept 2026 - Present)}{\textbf{DAAD KOSPIE 
+Scholar}}{[TITLE for MS THESIS]}{}{Prof. Aamir Ahmad, IFR, Universität Stuttgart}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item 1
+\vspace{-1 pt}
+\item 2
+\vspace{-1 pt}
+\item 3
+\vspace{-1 pt}
+\item 4
+\vspace{-1.5 pt}
+}
+
+\cventry{(Jul 2026 - Aug 2026)}{\textbf{RobotX 2026 Fellow}}{Rule-Constrained Adversarial Scenario Generation}{}{Prof. Emilio Frazzoli, IDSC, ETH Zürich}{ \setlength{\itemindent}{.2in} 
+\item Proposed a novel RL framework for generating \textbf{critical} yet \textbf{realistic adversarial scenarios} for AV safety validation
+\vspace{-1 pt}
+\item Reformulated adversarial scenario generation with \textbf{rule-constrained non-ego} agents using feasibility-aware learning
+\vspace{-1 pt}
+\item Demonstrated that \textbf{feasibility learning} can serve as a \textbf{reliable surrogate} for learning and enforcing rules and constraints
+\vspace{-1 pt}
+\item Extended the \textbf{FREA} framework with feasibility-guided RL, reducing rule violations while preserving adversarial behaviour
+\vspace{-1.5 pt}
+}
+
+\cventry{(Sept 2025 - Sept 2026)}{Guide: Prof. Anuj Kumar Tiwari, ME Dept., IIT Madras}{Robust Finite-Time Control of Multi-Agent Swarms}{\href{put link}{\textcolor{blue}{Project Link}}}{}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item Proposed a hybrid swarm kinematic model enabling \textbf{finite-time} centroid tracking independent of formation geometry
+\vspace{-1 pt}
+\item Proved global exponential convergence of formation errors using distance-based inter-agent coupling
+\vspace{-1 pt}
+\item Established \textbf{Input-to-State Stability (ISS)} under bounded disturbances with analytically characterized invariant error bound
+\vspace{-1 pt}
+\item Derived \textbf{super-linear disturbance attenuation} for centroid tracking using finite-time sliding-mode control
+\vspace{-1.5 pt}
+}
+
+\cventry{(Mar 2026 - May 2026)}{Guide: Dr. Sudarsun Santhiappan, DSAI Dept., IIT Madras}{Multi-View 3D Scene Reconstruction Pipeline for Robotic Perception}{\href{https://github.com/yash-purswani/MLOps-Project-ME22B214}{\textcolor{blue}{Project Link}}}{}{ \setlength{\itemindent}{.2in} 
+\item Built a \textbf{multi-view 3D reconstruction} pipeline from unordered images using \textbf{SfM}, feature matching and dense reconstruction
+\vspace{-1 pt}
+\item Estimated \textbf{camera trajectories} and dense point clouds using multi-view geometry for robotic scene understanding
+\vspace{-1 pt}
+\item Developed an \textbf{end-to-end scalable} pipeline for reconstructing real-world 3D environments and containerized deployment
+\vspace{-1.5 pt}
+}
+
+\cventry{(Nov 2025 - Mar 2026)}{Guide: Prof. Sivanagendra SM, CE Dept., IIT Madras}{Autonomous Road Dust Collector}{}{}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item Developed an \textbf{Autonomous Road Dust Collection Robot} for unmanned operations in sub-urban environments
+\vspace{-1 pt}
+\item Implemented 3D LiDAR-based odometry, and mapping using \textbf{FAST-LIO2} and \textbf{NDT-based localization} for pose estimation
+\vspace{-1 pt}
+\item Incorporated \textbf{Lanelet-based} semantic road modelling for path planning and enable context-aware autonomous navigation
+\vspace{-1 pt}
+\item Performed system \textbf{performance evaluation} and \textbf{failure-mode analysis} using time-series sensor data and simulation logs
+\vspace{-1.5 pt}
+}
+
+\newpage
+
+\cventry{(Mar 2025 - May 2025)}{Guide: Prof. Rachel Kalpana Kalaimani, EE Dept., IIT Madras}{Optimal Rendezvous Trajectory for Unmanned Aerial-Ground Vehicles}{}{}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item Designed an \textbf{optimal control} framework for UAV--UGV rendezvous and \textbf{in-motion refuelling} under non-linear dynamics
+\vspace{-1 pt}
+\item Developed a trajectory-tracking and \textbf{aggressiveness-index-based} control strategy enabling \textbf{tunable rendezvous} behaviour
+\vspace{-1 pt}
+\item Validated the method through numerical simulations in PRONTO, demonstrating robust convergence and adaptability
+\vspace{-1.5 pt}
+}
+
+\end{itemize}
+\vspace{-15 pt}
+
+\section{Professional Experience}
+
+\textbf{\large{Team Abhiyaan — IIT Madras}}
+\textit{(Apr 2023 - May 2026)}
+
+\textit{\large{Team Lead / Software Module Lead / Robotics Engineer}}
+
+\begin{itemize}[leftmargin=0.0in]
+\setlength\itemsep{.2em}
+
+\cventry{}{Guide: Prof. Sathyan Subbiah, ME Dept., IIT Madras}{BOLT — Driverless Institute Shuttle}{}{}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item Developed and fully deployed a \textbf{ROS-based software} on an electric golf cart, turning it into a \textbf{Driverless Institute Shuttle}
+\vspace{-1 pt}
+\item Achieved \textbf{98.3\% accuracy} using 3D LiDAR–camera sensor fusion for precise object classification and distance estimation
+\vspace{-1 pt}
+\item Leveraged realistic \textbf{CARLA} and \textbf{Gazebo} simulations to conduct comprehensive testing of the software subsystem for BOLT
+\vspace{-1.5 pt}
+}
+
+\cventry{}{Intelligent Ground Vehicle Competition (IGVC), Michigan, USA}{Project Vidyut}{}{}{ \setlength{\itemindent}{.2in} \setlength\itemsep{.3em}
+\item Developed a \textbf{ROS2-based navigation} stack integrating \textbf{Nav2}, SLAM, and sensor fusion for autonomous navigation
+\vspace{-1 pt}
+\item Implemented ORB-SLAM3, SLAM Toolbox, CUDA-accelerated perception, and EKF-based sensor fusion for localization
+\vspace{-1 pt}
+\item Led software development and system integration for reliable autonomous vehicle deployment at IGVC 2024
+\vspace{-1 pt}
+\item Secured \textbf{6th position} in the Design Challenge and an overall \textbf{7th position} among 30+ international teams at IGVC 2024
+\vspace{-1.5 pt}
+}
+
+\end{itemize}
+
+\textbf{Team Leadership}
+\vspace{-6 pt}
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.2em}
+
+\item Led a \textbf{30+} member team, overseeing software architecture, development, and validation of autonomous robots
+\vspace{-1.5 pt}
+\end{itemize}
+
+\vspace{-15 pt}
+
+\section{Honors \& Awards}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.2em}
+
+\item RobotX 2026 Fellow, ETH Zürich, selected for competitive robotics research fellowship
+\vspace{-1 pt}
+\item DAAD KOSPIE 2026 Scholar, selected for master's thesis exchange at Universität Stuttgart
+\vspace{-1 pt}
+\item IGVC 2024, 7th Overall among 30+ international teams and 6th in Design Challenge
+\vspace{-1 pt}
+\item Inter-IIT Tech Meet 2024, Silver Medal for designing an efficient air-conditioning system
+\vspace{-1.5 pt}
+
+\end{itemize}
+\vspace{-15 pt}
+
+\section{Technical Skills}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.2em}
+
+\item \textbf{Programming Languages:} Python, C++, MATLAB, Bash
+\vspace{-1 pt}
+\item \textbf{Robotics:} ROS2, Gazebo, CARLA, NVIDIA Omniverse
+\vspace{-1 pt}
+\item \textbf{Perception:} OpenCV, Open3D, FAST-LIO2, FAST-LIVO2, ORB-SLAM3
+\vspace{-1 pt}
+\item \textbf{ML/RL Libraries:} Pytorch, Tensorflow, scikit-learn, Gymnasium
+\vspace{-1 pt}
+\item \textbf{Systems:} Linux, CUDA, CMake, Docker, Git
+\vspace{-1.5 pt}
+
+\end{itemize}
+\vspace{-15 pt}
+
+\section{Relevant Courses}
+
+\begin{itemize}[leftmargin=.2in]
+\setlength\itemsep{.2em}
+
+\item \textbf{Robotics, Dynamics \& Control:} Network Dynamics \& Controls · Optimal Control · Control Systems · Motion Planning for Self-Driving Cars*
+\vspace{-1 pt}
+\item \textbf{Learning:} Reinforcement Learning · Foundations of Machine Learning · Machine Learning Operations
+\vspace{-1 pt}
+\item \textbf{Others:} Parallel Scientific Computing · Multi-Variable Calculus · Linear Algebra · Data Structures \& Algorithms
+\vspace{-1.5 pt}
+
+\end{itemize}
+\vspace{-15 pt}
+
+
+
+%-----       letter       ---------------------------------------------------------
+
+
+\vspace{-18pt}
+% \section{References}
+% \cvdoublecolumn{\cvreference{Greeshma Thrivikraman}
+%     {Department of Biotechnology}
+%     {Indian Institute of Technology, Madras}
+%     {}
+%     {}
+%     {greesham@iitm.ac.in}
+%     {044 2257 4142}%
+%     }
+%     {\cvreference{Nitish R Mahapatra}
+%     {Department of Biotechnology}
+%     {Indian Institute of Technology, Madras}
+%     {}
+%     {}
+%     {nmahapatra@iitm.ac.in}
+%     {044 2257 4128}%
+%     }
+\fancyfoot[L]{* - \textit{Audited/informal coursework, not on official transcript}}
+\end{document}
+%% end of file `template.tex'.

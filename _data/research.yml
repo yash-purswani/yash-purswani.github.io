@@ -1,0 +1,80 @@
+# Research projects, rendered by _includes/research-card.liquid on /research/.
+# Add a `paper:`, `code:` or `project:` URL only when it really exists — empty
+# values are skipped and no button is rendered.
+#
+# `placeholder` fields marked TODO are shown on the site with a visible
+# "placeholder" style so they are never mistaken for real content.
+
+- id: stuttgart-thesis
+  title: "[MASTER'S THESIS TITLE — TO BE CONFIRMED]"
+  title_is_placeholder: true
+  context: Learning distributed policies for multi-robot coordination via synthetic data and reinforcement learning.
+  affiliation: Institute of Flight Mechanics and Control (IFR), Universität Stuttgart
+  role: Master's Thesis · DAAD KOSPIE Scholar
+  supervisor: Prof. Aamir Ahmad
+  date: Sep 2026 – Mar 2027
+  description_is_placeholder: true
+  description:
+    - "[THESIS DESCRIPTION — to be added once the research direction is fixed. No results are stated here on purpose.]"
+  tags:
+    - Multi-Robot Systems
+    - Reinforcement Learning
+    - Distributed Policies
+    - Synthetic Data
+    - Sim-to-Real
+    - Autonomous Systems
+  image: /assets/img/projects/stuttgart-thesis.jpg
+  video: /assets/video/projects/stuttgart-thesis.mp4
+  alt: Placeholder for media from the Universität Stuttgart master's thesis.
+  paper:
+  code:
+  project:
+
+- id: eth-adversarial
+  title: Rule-Constrained Adversarial Scenario Generation
+  affiliation: Institute for Dynamic Systems and Control (IDSC), ETH Zürich
+  role: RobotX 2026 Fellow
+  supervisor: Prof. Emilio Frazzoli
+  date: Jul 2026 – Aug 2026
+  description:
+    - Proposed a novel reinforcement-learning framework for generating critical yet realistic adversarial scenarios for autonomous-vehicle safety validation.
+    - Reformulated adversarial scenario generation with rule-constrained non-ego agents using feasibility-aware learning.
+    - Demonstrated that feasibility learning can serve as a reliable surrogate for learning and enforcing rules and constraints.
+    - Extended the FREA framework with feasibility-guided RL, reducing rule violations while preserving adversarial behaviour.
+  tags:
+    - Reinforcement Learning
+    - Autonomous Vehicles
+    - Adversarial Scenario Generation
+    - Safety Validation
+    - Feasibility Learning
+  image: /assets/img/projects/eth-adversarial.jpg
+  video: /assets/video/projects/eth-adversarial.mp4
+  alt: Placeholder for media from the rule-constrained adversarial scenario generation project at ETH Zürich.
+  paper:
+  code:
+  project:
+
+- id: swarm-control
+  title: Robust Finite-Time Control of Multi-Agent Swarms
+  affiliation: Department of Mechanical Engineering, IIT Madras
+  role: Research Project
+  supervisor: Prof. Anuj Kumar Tiwari
+  date: Sep 2025 – Sep 2026
+  description:
+    - Proposed a hybrid swarm kinematic model enabling finite-time centroid tracking independent of formation geometry.
+    - Proved global exponential convergence of formation errors using distance-based inter-agent coupling.
+    - Established Input-to-State Stability (ISS) under bounded disturbances with analytically characterised invariant error bounds.
+    - Derived super-linear disturbance attenuation for centroid tracking using finite-time sliding-mode control.
+  tags:
+    - Multi-Robot Systems
+    - Distributed Control
+    - Finite-Time Control
+    - Formation Control
+    - Input-to-State Stability
+    - Sliding-Mode Control
+  image: /assets/img/projects/swarm-control.jpg
+  video: /assets/video/projects/swarm-control.mp4
+  alt: Placeholder for media from the multi-agent swarm control project at IIT Madras.
+  paper:
+  code:
+  project:
