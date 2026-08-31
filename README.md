@@ -36,7 +36,15 @@ gems can compile.
 ## Deployment
 
 `.github/workflows/deploy.yml` builds the site on every push to `main` and
-publishes `_site/` to the `gh-pages` branch.
+publishes the built `_site/` to the `gh-pages` branch. A `.nojekyll` marker
+ships with it so GitHub serves that output verbatim instead of re-running
+Jekyll over it.
 
-**One-time setup:** in the repository's *Settings → Pages*, set the source to
-the **`gh-pages` branch**, root folder.
+**One-time setup (required — the site 404s until this is done):**
+
+*Settings → Pages → Build and deployment → Source: **Deploy from a branch***,
+then choose branch **`gh-pages`** and folder **`/ (root)`**, and Save.
+
+The workflow and the `gh-pages` branch can both be perfectly healthy while the
+site still returns 404; that only means Pages has not been pointed at the
+branch yet. After saving, the first publish takes a minute or two.
