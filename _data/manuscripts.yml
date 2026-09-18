@@ -9,11 +9,11 @@
   arxiv:
   doi:
   code:
-- title: Robust Finite-Time Control of Multi-Agent Swarms
-  venue: IEEE American Control Conference (ACC)
+- title: Finite-Time Centroid Tracking and Exponential Formation Stabilization in Arbitrary Swarm Configurations
+  venue: IEEE Control Systems Letters (LCSS) / IEEE American Control Conference (ACC)
   year: 2027
-  status: Manuscript in preparation
-  pdf:
+  status: Under Review
+  pdf: /assets/pdf/Finite_time_swarm_LCSS.pdf
   arxiv:
   doi:
-  code:
+  code: https://github.com/yash-purswani/finite-time-swarm

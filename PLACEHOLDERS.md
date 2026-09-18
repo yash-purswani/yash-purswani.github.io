@@ -11,8 +11,6 @@ Search the repo for `TODO(placeholder)` to find the exact spots.
 
 | What | Where | Notes |
 |---|---|---|
-| Profile photo | `assets/img/` | Add e.g. `prof_pic.jpg`, then set `profile.image` in `_pages/about.md`. Currently shows the "PHOTO PENDING" placeholder `prof_pic_placeholder.svg`. |
-| LinkedIn URL | `_data/socials.yml` | Uncomment `linkedin_username:` and add your handle. No icon renders until then. |
 | Google Scholar ID | `_data/socials.yml` | Uncomment `scholar_userid:` and add the `user=` value from your Scholar profile URL. The CV's Google Scholar link is also empty. |
 
 ## 2. Master's thesis (Universität Stuttgart)
@@ -35,10 +33,8 @@ no template changes needed. Until a file exists, the card shows a neutral
 | Project | Image | Video |
 |---|---|---|
 | Master's thesis | `assets/img/projects/stuttgart-thesis.jpg` | `assets/video/projects/stuttgart-thesis.mp4` |
-| ETH adversarial scenarios | `assets/img/projects/eth-adversarial.jpg` | `assets/video/projects/eth-adversarial.mp4` |
-| Swarm control | `assets/img/projects/swarm-control.jpg` | `assets/video/projects/swarm-control.mp4` |
 | 3D reconstruction | ✅ `3d-reconstruction.jpg` | ✅ `3d-reconstruction.mp4` |
-| Road dust collector | `assets/img/projects/arcd.jpg` | `assets/video/projects/arcd.mp4` |
+| Road dust collector | `assets/img/projects/ardc.jpg` | `assets/video/projects/ardc.mp4` |
 | UAV–UGV rendezvous | `assets/img/projects/uav-ugv.jpg` | `assets/video/projects/uav-ugv.mp4` |
 | BOLT | `assets/img/projects/bolt.jpg` | `assets/video/projects/bolt.mp4` |
 | Vidyut | `assets/img/projects/vidyut.jpg` | `assets/video/projects/vidyut.mp4` |
@@ -72,10 +68,10 @@ These render with a visible `[confirm …]` note next to them.
 
 | Item | File | Current guess |
 |---|---|---|
-| IGVC 2024 travel to the USA | `_news/2024-06-01-igvc-usa.md` | dated Jun 2024 |
-| RobotX 2026 Fellow selection | `_news/2026-01-01-robotx-selected.md` | dated Jan 2026 |
-| DAAD KOSPIE 2026 selection | `_news/2026-02-01-daad-selected.md` | dated Feb 2026 |
 | BOLT start/end dates | `_data/projects.yml` → `bolt.date` | left empty |
+
+The news items now carry only the month and year supplied directly by you, so
+none of them are guesses any more.
 
 Fix the date in the filename **and** the `date:` front matter, then delete the
 `[confirm …]` span from the body.

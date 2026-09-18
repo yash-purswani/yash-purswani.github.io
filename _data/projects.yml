@@ -6,28 +6,29 @@
 # Team Abhiyaan context block is rendered immediately before the first of them.
 
 - id: 3d-reconstruction
-  title: Multi-View 3D Scene Reconstruction for Robotic Perception
+  title: MLOps Pipeline for 3D Scene Reconstruction
   affiliation: Department of Data Science and AI (DSAI), IIT Madras
   supervisor: Dr. Sudarsun Santhiappan
   date: Mar 2026 – May 2026
   description:
-    - Built a multi-view 3D reconstruction pipeline from unordered images using structure-from-motion, feature matching and dense reconstruction.
-    - Estimated camera trajectories and dense point clouds using multi-view geometry for robotic scene understanding.
-    - Developed an end-to-end scalable pipeline for reconstructing real-world 3D environments, with containerised deployment.
+    - Built an automated MLOps pipeline orchestrating distributed 3D reconstruction and dense point cloud generation workflows.
+    - Containerised multi-stage structure-from-motion workflows using Docker to ensure reproducible, isolated and scalable deployment.
+    - Integrated automated data versioning, experiment tracking and artifact pipelines across all reconstruction execution stages.
+    - Benchmarked inference throughput and optimised resource utilisation across heterogeneous computing environments.
   tags:
+    - MLOps
     - 3D Reconstruction
     - Robot Perception
-    - Computer Vision
+    - Docker
     - SfM
-    - Multi-View Geometry
   image: /assets/img/projects/3d-reconstruction.jpg
   video: /assets/video/projects/3d-reconstruction.mp4
   alt: Dense 3D point cloud reconstructed from unordered multi-view images.
   code: https://github.com/yash-purswani/MLOps-Project-ME22B214
   demo:
-  project:
+  project: https://yash-purswani.github.io/MLOps-Project-ME22B214/
 
-- id: arcd
+- id: ardc
   title: Autonomous Road Dust Collector
   affiliation: Department of Civil Engineering, IIT Madras
   supervisor: Prof. Sivanagendra SM
@@ -44,8 +45,8 @@
     - NDT Localisation
     - Lanelets
     - ROS2
-  image: /assets/img/projects/arcd.jpg
-  video: /assets/video/projects/arcd.mp4
+  image: /assets/img/projects/ardc.jpg
+  video: /assets/video/projects/ardc.mp4
   alt: Placeholder for media from the autonomous road dust collector project.
   code:
   demo:
@@ -65,7 +66,7 @@
     - Optimal Control
     - Trajectory Tracking
     - Nonlinear Dynamics
-  image: /assets/img/projects/uav-ugv.jpg
+  image: /assets/img/projects/uav-ugv.png
   video: /assets/video/projects/uav-ugv.mp4
   alt: Placeholder for media from the UAV-UGV optimal rendezvous project.
   code:
@@ -76,8 +77,6 @@
   title: BOLT — Driverless Institute Shuttle
   affiliation: Team Abhiyaan, IIT Madras
   supervisor: Prof. Sathyan Subbiah
-  # TODO(placeholder): the CV gives no start/end dates for BOLT; add them here
-  # once confirmed. The Team Abhiyaan block above already covers Apr 2023 – May 2026.
   date:
   team_context: abhiyaan
   description:

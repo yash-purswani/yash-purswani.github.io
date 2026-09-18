@@ -6,11 +6,11 @@ subtitle: Robotics Researcher · <a href="https://www.iitm.ac.in/">Indian Instit
 
 profile:
   align: right
-  image: prof_pic_placeholder.svg # TODO(placeholder): replace with a real photo, e.g. prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>B.Tech. Mechanical Engineering</p>
-    <p>M.Tech. Data Science</p>
+    <p>M.Tech. Data Science and AI</p>
     <p>IIT Madras</p>
 
 social: true

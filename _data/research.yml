@@ -55,8 +55,8 @@
   project:
 
 - id: swarm-control
-  title: Robust Finite-Time Control of Multi-Agent Swarms
-  affiliation: Department of Mechanical Engineering, IIT Madras
+  title: Finite-Time Centroid Tracking and Exponential Formation Stabilization in Arbitrary Swarm Configurations
+  affiliation: Distributed Intelligence & Robotics Lab (DIRo Lab), Department of Mechanical Engineering, IIT Madras
   role: Research Project
   supervisor: Prof. Anuj Kumar Tiwari
   date: Sep 2025 – Sep 2026

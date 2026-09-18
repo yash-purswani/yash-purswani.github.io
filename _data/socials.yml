@@ -4,10 +4,9 @@
 email: yashpurswani4@gmail.com
 github_username: yash-purswani
 cv_pdf: /assets/pdf/yash_purswani_cv.pdf
+linkedin_username: yash-purswani-081480252
 
-# TODO(placeholder): add your LinkedIn handle, e.g. linkedin_username: yash-purswani
-# linkedin_username:
+scholar_userid: _G7_H_kAAAAJ
 
-# TODO(placeholder): add your Google Scholar user id (the `user=` value in your
-# Scholar profile URL), e.g. scholar_userid: XXXXXXXXXXXX
-# scholar_userid:
+# ORCID iD (rendered by jekyll-socials as https://orcid.org/<id>)
+orcid_id: 0009-0002-9718-8160
