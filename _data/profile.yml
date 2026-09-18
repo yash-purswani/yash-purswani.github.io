@@ -2,17 +2,17 @@
 # (robotics.tex); nothing is inferred.
 
 interests:
-  - name: Robot Perception
-    blurb: Multi-view geometry, LiDAR–camera fusion and SLAM for scene understanding on real platforms.
-  - name: Multi-Robot Systems
-    blurb: Distributed coordination, formation control and provable stability guarantees for swarms.
-  - name: Motion Planning & Control
-    blurb: Optimal, finite-time and sliding-mode control for autonomous ground and aerial vehicles.
   - name: Reinforcement Learning
     blurb: Feasibility-aware and constrained RL, including safety validation for autonomous driving.
   - name: Autonomous Systems
     blurb: End-to-end autonomy stacks taken from simulation through to field deployment.
-
+  - name: Motion Planning & Control
+    blurb: Optimal, finite-time and sliding-mode control for autonomous ground and aerial vehicles.
+  - name: Multi-Robot Systems
+    blurb: Distributed coordination, formation control and provable stability guarantees for swarms.
+  - name: Robot Perception
+    blurb: Multi-view geometry, LiDAR–camera fusion and SLAM for scene understanding on real platforms.
+  
 education:
   - institution: Indian Institute of Technology Madras
     degree: B.Tech. in Mechanical Engineering and Inter-Disciplinary M.Tech. in Data Science
@@ -38,10 +38,8 @@ awards:
     detail: Selected for a competitive robotics research fellowship.
   - title: DAAD KOSPIE 2026 Scholar
     detail: Selected for a master's thesis exchange at Universität Stuttgart.
-  - title: IGVC 2024 — 7th Overall
-    detail: Among 30+ international teams at the Intelligent Ground Vehicle Competition.
-  - title: IGVC 2024 — 6th in Design Challenge
-    detail: Intelligent Ground Vehicle Competition, Michigan, USA.
+  - title: IGVC 2024 — 6th in Design Challenge & 7th Overall 
+    detail: Among 30+ international teams at the 31st Intelligent Ground Vehicle Competition.
   - title: Inter-IIT Tech Meet 2024 — Silver Medal
     detail: For designing an efficient air-conditioning system.
 

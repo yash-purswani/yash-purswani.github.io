@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>B.Tech. Mechanical Engineering</p>
-    <p>M.Tech. Data Science and AI</p>
+    <p>M.Tech. Data Science and Artificial Intelligence</p>
     <p>IIT Madras</p>
 
 social: true

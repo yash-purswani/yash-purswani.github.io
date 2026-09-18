@@ -18,8 +18,3 @@ vendor
 *.log
 *.out
 *.synctex.gz
-
-# Source GIF for the 3D-reconstruction card (3.9 MB). The committed derivatives
-# assets/video/projects/3d-reconstruction.mp4 (87 KB) and its poster JPG are
-# what the site actually serves. Un-ignore if you want the original in git.
-3d_reconstruction.gif

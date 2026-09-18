@@ -63,7 +63,7 @@
           <a class="card-link" href="{{ item.demo }}">Demo</a>
         {% endif %}
         {% if item.project != blank %}
-          <a class="card-link" href="{{ item.project }}">Project</a>
+          <a class="card-link" href="{{ item.project | relative_url }}">Documentation</a>
         {% endif %}
       </p>
     {% endif %}

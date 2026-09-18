@@ -232,8 +232,16 @@ ul.is-placeholder::after {
   }
 }
 
+.manuscript-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+
 .manuscript-title {
-  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
   font-weight: 600;
 }
 
@@ -245,8 +253,9 @@ ul.is-placeholder::after {
 }
 
 .manuscript-status {
-  display: inline-block;
-  margin-top: 0.2rem;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-align: right;
   padding: 0.1rem 0.55rem;
   font-size: 0.75rem;
   letter-spacing: 0.03em;

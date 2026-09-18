@@ -7,10 +7,10 @@ first_name: Yash
 middle_name: 
 last_name: Purswani
 contact_note: >
-  Email is the fastest way to reach me.
+  Feel free to reach out to me via email or LinkedIn.
 description: Robotics researcher working on robot perception, multi-robot systems, motion planning and control, and reinforcement learning.
 footer_text: # the footer is rendered structurally in _includes/footer.liquid
-keywords: robotics, robot perception, multi-robot systems, motion planning, control, reinforcement learning, autonomous systems, IIT Madras
+keywords: robotics, reinforcement learning, autonomous systems, motion planning, control, multi-robot systems, robot perception, IIT Madras
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

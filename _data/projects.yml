@@ -1,5 +1,5 @@
 # Applied robotics / engineering projects, rendered by _includes/project-card.liquid
-# on /projects/. Only real URLs belong in `code:`, `demo:` and `project:` — empty
+# on /projects/. Only real URLs belong in `code:`, `demo:` and `project:` (shown as "Documentation") — empty
 # values are skipped and no button is rendered.
 #
 # `team_context: abhiyaan` marks the cards that belong to Team Abhiyaan; the
@@ -7,7 +7,7 @@
 
 - id: 3d-reconstruction
   title: MLOps Pipeline for 3D Scene Reconstruction
-  affiliation: Department of Data Science and AI (DSAI), IIT Madras
+  affiliation: Department of Data Science and Artificial Intelligence (DSAI), IIT Madras
   supervisor: Dr. Sudarsun Santhiappan
   date: Mar 2026 – May 2026
   description:
@@ -77,7 +77,7 @@
   title: BOLT — Driverless Institute Shuttle
   affiliation: Team Abhiyaan, IIT Madras
   supervisor: Prof. Sathyan Subbiah
-  date:
+  date: Jul 2024 – May 2025
   team_context: abhiyaan
   description:
     - Developed and fully deployed a ROS-based autonomy stack on an electric golf cart, turning it into a driverless institute shuttle.
@@ -97,15 +97,16 @@
   alt: Placeholder for media of the BOLT driverless institute shuttle.
   code:
   demo:
-  project:
+  project: /assets/pdf/Driverless_Shuttle_BOLT.pdf
 
 - id: vidyut
   title: Vidyut — IGVC 2024 Autonomous Vehicle
   affiliation: Team Abhiyaan, IIT Madras
-  supervisor:
-  date: Intelligent Ground Vehicle Competition (IGVC) 2024, Michigan, USA
+  supervisor: Prof. Sathyan Subbiah
+  date: Dec 2023 – Jun 2024
   team_context: abhiyaan
   description:
+    Intelligent Ground Vehicle Competition (IGVC) 2024, Michigan, USA
     - Developed a ROS2-based navigation stack integrating Nav2, SLAM and sensor fusion for autonomous navigation.
     - Implemented ORB-SLAM3, SLAM Toolbox, CUDA-accelerated perception and EKF-based multi-sensor fusion for robust localisation.
     - Led software development and system integration for reliable autonomous vehicle deployment at IGVC 2024.
