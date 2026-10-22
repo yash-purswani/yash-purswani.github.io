@@ -10,11 +10,7 @@
   affiliation: Department of Data Science and Artificial Intelligence (DSAI), IIT Madras
   supervisor: Dr. Sudarsun Santhiappan
   date: Mar 2026 – May 2026
-  description:
-    - Built an automated MLOps pipeline orchestrating distributed 3D reconstruction and dense point cloud generation workflows.
-    - Containerised multi-stage structure-from-motion workflows using Docker to ensure reproducible, isolated and scalable deployment.
-    - Integrated automated data versioning, experiment tracking and artifact pipelines across all reconstruction execution stages.
-    - Benchmarked inference throughput and optimised resource utilisation across heterogeneous computing environments.
+  description: "Built an automated end-to-end MLOps pipeline orchestrating distributed 3D reconstruction and dense point cloud generation. Containerized multi-stage Structure-from-Motion workflows using Docker, integrating automated data versioning, experiment tracking, and artifact pipelines for reproducible multi-node deployment."
   tags:
     - MLOps
     - 3D Reconstruction
@@ -33,11 +29,7 @@
   affiliation: Department of Civil Engineering, IIT Madras
   supervisor: Prof. Sivanagendra SM
   date: Nov 2025 – Mar 2026
-  description:
-    - Developed an autonomous road dust collection robot for unmanned operation in sub-urban environments.
-    - Implemented 3D LiDAR-based odometry and mapping using FAST-LIO2, with NDT-based localisation for pose estimation.
-    - Incorporated Lanelet-based semantic road modelling for path planning and context-aware autonomous navigation.
-    - Performed system performance evaluation and failure-mode analysis using time-series sensor data and simulation logs.
+  description: "Developed an autonomous road dust collection robot for unmanned operation in suburban environments. Engineered the navigation stack using FAST-LIO2 for 3D LiDAR odometry and mapping, NDT-based localization for pose estimation, and Lanelet semantic maps for context-aware path planning."
   tags:
     - Autonomous Navigation
     - LiDAR
@@ -47,7 +39,7 @@
     - ROS2
   image: /assets/img/projects/ardc.jpg
   video: /assets/video/projects/ardc.mp4
-  alt: Placeholder for media from the autonomous road dust collector project.
+  alt: Autonomous road dust collection robot platform and sensor suite.
   code:
   demo:
   project:
@@ -57,10 +49,7 @@
   affiliation: Department of Electrical Engineering, IIT Madras
   supervisor: Prof. Rachel Kalpana Kalaimani
   date: Mar 2025 – May 2025
-  description:
-    - Designed an optimal control framework for UAV–UGV rendezvous and in-motion refuelling under non-linear dynamics.
-    - Developed a trajectory-tracking and aggressiveness-index-based control strategy enabling tunable rendezvous behaviour.
-    - Validated the method through numerical simulations in PRONTO, demonstrating robust convergence and adaptability.
+  description: "Formulated an optimal control framework for autonomous UAV–UGV rendezvous and in-motion docking under nonlinear dynamics. Designed an aggressiveness-index-based trajectory tracking strategy in PRONTO, providing tunable rendezvous behaviors with verified numerical convergence."
   tags:
     - UAV-UGV Coordination
     - Optimal Control
@@ -68,7 +57,7 @@
     - Nonlinear Dynamics
   image: /assets/img/projects/uav-ugv.png
   video: /assets/video/projects/uav-ugv.mp4
-  alt: Placeholder for media from the UAV-UGV optimal rendezvous project.
+  alt: Optimal rendezvous trajectory simulation for unmanned aerial-ground vehicles.
   code:
   demo:
   project:
@@ -79,11 +68,7 @@
   supervisor: Prof. Sathyan Subbiah
   date: Jul 2024 – May 2025
   team_context: abhiyaan
-  description:
-    - Developed and fully deployed a ROS-based autonomy stack on an electric golf cart, turning it into a driverless institute shuttle.
-    - Achieved 98.3% accuracy using 3D LiDAR–camera sensor fusion for object classification and distance estimation.
-    - Leveraged realistic CARLA and Gazebo simulations to comprehensively test the software subsystem for BOLT.
-    - Integrated the autonomous software modules to achieve reliable end-to-end operation of the shuttle.
+  description: "Designed and field-deployed a full ROS autonomy stack converting an electric golf cart into a driverless campus shuttle. Integrated a 3D LiDAR–camera fusion perception pipeline achieving 98.3% classification accuracy, comprehensively validated in CARLA and Gazebo before physical deployment."
   tags:
     - ROS2
     - Autonomous Vehicles
@@ -94,7 +79,7 @@
     - Gazebo
   image: /assets/img/projects/bolt.jpg
   video: /assets/video/projects/bolt.mp4
-  alt: Placeholder for media of the BOLT driverless institute shuttle.
+  alt: BOLT driverless institute shuttle developed by Team Abhiyaan.
   code:
   demo:
   project: /assets/pdf/Driverless_Shuttle_BOLT.pdf
@@ -105,12 +90,7 @@
   supervisor: Prof. Sathyan Subbiah
   date: Dec 2023 – Jun 2024
   team_context: abhiyaan
-  description:
-    Intelligent Ground Vehicle Competition (IGVC) 2024, Michigan, USA
-    - Developed a ROS2-based navigation stack integrating Nav2, SLAM and sensor fusion for autonomous navigation.
-    - Implemented ORB-SLAM3, SLAM Toolbox, CUDA-accelerated perception and EKF-based multi-sensor fusion for robust localisation.
-    - Led software development and system integration for reliable autonomous vehicle deployment at IGVC 2024.
-    - Secured 7th overall among 30+ international teams and 6th in the Design Challenge at IGVC 2024.
+  description: "Led software development and systems integration for Team Abhiyaan's autonomous ground vehicle at IGVC 2024 in Michigan. Built a ROS2 navigation stack featuring Nav2, ORB-SLAM3, SLAM Toolbox, and CUDA-accelerated vision, placing 6th in the Design Challenge and 7th overall internationally."
   tags:
     - ROS
     - ROS2
@@ -122,7 +102,7 @@
     - Autonomous Vehicles
   image: /assets/img/projects/vidyut.jpg
   video: /assets/video/projects/vidyut.mp4
-  alt: Placeholder for media of Vidyut, the IGVC 2024 autonomous vehicle.
+  alt: Vidyut autonomous vehicle for IGVC 2024.
   code:
   demo:
   project:

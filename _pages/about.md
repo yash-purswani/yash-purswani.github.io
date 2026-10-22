@@ -24,22 +24,13 @@ honors: true
 technical_profile: true
 ---
 
-I am an undergraduate researcher at IIT Madras, pursuing a B.Tech. in Mechanical Engineering together
-with an inter-disciplinary M.Tech. in Data Science. My work sits at the intersection of **robot
-perception**, **multi-robot systems**, **motion planning and control**, and **reinforcement learning**,
-with a consistent emphasis on autonomy that is validated on real hardware rather than only in
-simulation.
+I am a robotics researcher at IIT Madras, pursuing an inter-disciplinary dual degree in Mechanical Engineering
+and in Data Science & Artificial Intelligence. My research focuses on autonomous robotic systems, particularly 
+at the intersection of multi-robot coordination, motion planning and control, robot perception, and reinforcement 
+learning. I am interested in developing reliable and scalable methods for robotic autonomy, combining theoretical 
+guarantees with learning-based approaches and real-world deployment.
 
-My research has moved from provable control guarantees toward learning-based methods for safety and
-coordination. At IIT Madras I developed a hybrid swarm kinematic model with finite-time centroid
-tracking and Input-to-State Stability guarantees under bounded disturbances. As a RobotX 2026 Fellow at
-ETH Zürich I reformulated adversarial scenario generation for autonomous-vehicle safety validation using
-rule-constrained non-ego agents and feasibility-aware reinforcement learning. I am currently at the
-Institute of Flight Mechanics and Control, Universität Stuttgart, working on learning distributed
-policies for multi-robot coordination via synthetic data and reinforcement learning. Alongside this, four
-years with [Team Abhiyaan](/projects/#team-abhiyaan) — IIT Madras' autonomous ground vehicle team — have
-given me end-to-end experience deploying perception, localisation, navigation and control stacks on real
-vehicles.
+Autonomous robots need to make reliable decisions when operating in uncertain environments, coordinating with other agents, and respecting the constraints of the physical world. My research aims at achieving reliable and scalable autonomy by combining the structure and guarantees offered by control theory with the adaptability of learning-based approaches, especially in the area of multi-robot coordination and decision-making. This requires robots to perceive their surroundings, reason about the interactions involved, and act collectively even in limited information and changing conditions. My three years of experience with [Team Abhiyaan](/projects/#team-abhiyaan), the premier robotics team at IIT Madras, has complemented my research with practical experience with building and deploying complete autonomy systems on real vehicles, ensuring that my work is grounded on the sensing, computing, dynamics, and integration problems encountered in real-world robotic systems.
 
 <h2 id="research-interests">research interests</h2>
 

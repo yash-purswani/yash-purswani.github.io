@@ -114,12 +114,21 @@ $card-media-width: 340px;
 
 .card-description {
   margin: 0 0 1rem;
-  padding-left: 1.1rem;
+  line-height: 1.55;
 
   li {
     margin-bottom: 0.35rem;
     line-height: 1.55;
   }
+}
+
+ul.card-description {
+  padding-left: 1.1rem;
+}
+
+p.card-description {
+  padding-left: 0;
+  margin: 0 0 1rem;
 }
 
 .card-tags {

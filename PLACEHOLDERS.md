@@ -15,14 +15,10 @@ Search the repo for `TODO(placeholder)` to find the exact spots.
 
 ## 2. Master's thesis (Universität Stuttgart)
 
-| What | Where |
-|---|---|
-| Final thesis title | `_data/research.yml` → `stuttgart-thesis.title` (currently `[MASTER'S THESIS TITLE — TO BE CONFIRMED]`, shown tagged "placeholder") |
-| Thesis description bullets | `_data/research.yml` → `stuttgart-thesis.description` (no results are claimed on purpose) |
-
-The same title is still `[TITLE for MS THESIS]` in `robotics.tex`, and its four
-bullet points there are empty (`\item 1` … `\item 4`) — update the CV too, then
-recompile and replace `assets/pdf/yash_purswani_cv.pdf`.
+| What | Where | Notes |
+|---|---|---|
+| Thesis title | `_data/research.yml` → `stuttgart-thesis.title` | Updated: *Synthetic Database Creation and Active Viewpoint Selection for Zebra Re-Identification* |
+| Thesis description | `_data/research.yml` → `stuttgart-thesis.description` | Updated with UV texture mapping, uncertainty quantification, and active viewpoint policy exploration |
 
 ## 3. Media
 
@@ -32,7 +28,7 @@ no template changes needed. Until a file exists, the card shows a neutral
 
 | Project | Image | Video |
 |---|---|---|
-| Master's thesis | `assets/img/projects/stuttgart-thesis.jpg` | `assets/video/projects/stuttgart-thesis.mp4` |
+| Master's thesis | ✅ `synth_reid.jpg` | Media pending |
 | 3D reconstruction | ✅ `3d-reconstruction.jpg` | ✅ `3d-reconstruction.mp4` |
 | Road dust collector | `assets/img/projects/ardc.jpg` | `assets/video/projects/ardc.mp4` |
 | UAV–UGV rendezvous | `assets/img/projects/uav-ugv.jpg` | `assets/video/projects/uav-ugv.mp4` |

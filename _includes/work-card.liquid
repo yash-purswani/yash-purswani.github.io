@@ -32,11 +32,17 @@
     </p>
 
     {% if item.description %}
-      <ul class="card-description{% if item.description_is_placeholder %} is-placeholder{% endif %}">
-        {% for line in item.description %}
-          <li>{{ line }}</li>
-        {% endfor %}
-      </ul>
+      {% if item.description.first %}
+        <ul class="card-description{% if item.description_is_placeholder %} is-placeholder{% endif %}">
+          {% for line in item.description %}
+            <li>{{ line }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="card-description{% if item.description_is_placeholder %} is-placeholder{% endif %}">
+          {{ item.description }}
+        </p>
+      {% endif %}
     {% endif %}
 
     {% if item.tags %}
