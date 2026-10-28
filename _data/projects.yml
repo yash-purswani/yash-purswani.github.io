@@ -23,44 +23,7 @@
   code: https://github.com/yash-purswani/MLOps-Project-ME22B214
   demo:
   project: https://yash-purswani.github.io/MLOps-Project-ME22B214/
-
-- id: ardc
-  title: Autonomous Road Dust Collector
-  affiliation: Department of Civil Engineering, IIT Madras
-  supervisor: Prof. Sivanagendra SM
-  date: Nov 2025 – Mar 2026
-  description: "Developed an autonomous road dust collection robot for unmanned operation in suburban environments. Engineered the navigation stack using FAST-LIO2 for 3D LiDAR odometry and mapping, NDT-based localization for pose estimation, and Lanelet semantic maps for context-aware path planning."
-  tags:
-    - Autonomous Navigation
-    - LiDAR
-    - FAST-LIO2
-    - NDT Localisation
-    - Lanelets
-    - ROS2
-  image: /assets/img/projects/ardc.jpg
-  video: /assets/video/projects/ardc.mp4
-  alt: Autonomous road dust collection robot platform and sensor suite.
-  code:
-  demo:
-  project:
-
-- id: uav-ugv
-  title: Optimal Rendezvous Trajectory for Unmanned Aerial-Ground Vehicles
-  affiliation: Department of Electrical Engineering, IIT Madras
-  supervisor: Prof. Rachel Kalpana Kalaimani
-  date: Mar 2025 – May 2025
-  description: "Formulated an optimal control framework for autonomous UAV–UGV rendezvous and in-motion docking under nonlinear dynamics. Designed an aggressiveness-index-based trajectory tracking strategy in PRONTO, providing tunable rendezvous behaviors with verified numerical convergence."
-  tags:
-    - UAV-UGV Coordination
-    - Optimal Control
-    - Trajectory Tracking
-    - Nonlinear Dynamics
-  image: /assets/img/projects/uav-ugv.png
-  video: /assets/video/projects/uav-ugv.mp4
-  alt: Optimal rendezvous trajectory simulation for unmanned aerial-ground vehicles.
-  code:
-  demo:
-  project:
+  report: /assets/pdf/MLOps_Project_Report.pdf
 
 - id: bolt
   title: BOLT — Driverless Institute Shuttle
@@ -103,6 +66,46 @@
   image: /assets/img/projects/vidyut.jpg
   video: /assets/video/projects/vidyut.mp4
   alt: Vidyut autonomous vehicle for IGVC 2024.
+  code:
+  demo:
+  project:
+  report: /assets/pdf/Vidyut.pdf
+
+- id: ardc
+  title: Autonomous Road Dust Collector
+  affiliation: Department of Civil Engineering, IIT Madras
+  supervisor: Prof. Sivanagendra SM
+  date: Nov 2025 – Mar 2026
+  description: "Developed an autonomous road dust collection robot for unmanned operation in suburban environments. Engineered the navigation stack using FAST-LIO2 for 3D LiDAR odometry and mapping, NDT-based localization for pose estimation, and Lanelet semantic maps for context-aware path planning."
+  tags:
+    - Autonomous Navigation
+    - LiDAR
+    - FAST-LIO2
+    - NDT Localisation
+    - Lanelets
+    - ROS2
+  image: /assets/img/projects/ardc.jpg
+  video: /assets/video/projects/ardc.mp4
+  alt: Autonomous road dust collection robot platform and sensor suite.
+  code:
+  demo:
+  project:
+  presentation: /assets/pdf/ARDC_Presentation.pdf
+
+- id: uav-ugv
+  title: Optimal Rendezvous Trajectory for Unmanned Aerial-Ground Vehicles
+  affiliation: Department of Electrical Engineering, IIT Madras
+  supervisor: Prof. Rachel Kalpana Kalaimani
+  date: Mar 2025 – May 2025
+  description: "Formulated an optimal control framework for autonomous UAV–UGV rendezvous and in-motion docking under nonlinear dynamics. Designed an aggressiveness-index-based trajectory tracking strategy in PRONTO, providing tunable rendezvous behaviors with verified numerical convergence."
+  tags:
+    - UAV-UGV Coordination
+    - Optimal Control
+    - Trajectory Tracking
+    - Nonlinear Dynamics
+  image: /assets/img/projects/uav-ugv.png
+  video:
+  alt: Optimal rendezvous trajectory simulation for unmanned aerial-ground vehicles.
   code:
   demo:
   project:

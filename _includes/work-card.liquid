@@ -54,7 +54,7 @@
     {% endif %}
 
     {% assign has_links = false %}
-    {% if item.paper != blank or item.code != blank or item.project != blank or item.demo != blank %}
+    {% if item.paper != blank or item.code != blank or item.project_page != blank or item.project != blank or item.presentation != blank or item.report != blank or item.demo != blank %}
       {% assign has_links = true %}
     {% endif %}
     {% if has_links %}
@@ -65,11 +65,20 @@
         {% if item.code != blank %}
           <a class="card-link" href="{{ item.code }}">Code</a>
         {% endif %}
-        {% if item.demo != blank %}
-          <a class="card-link" href="{{ item.demo }}">Demo</a>
+        {% if item.project_page != blank %}
+          <a class="card-link" href="{{ item.project_page | relative_url }}">Project Page</a>
+        {% endif %}
+        {% if item.presentation != blank %}
+          <a class="card-link" href="{{ item.presentation | relative_url }}">Presentation</a>
+        {% endif %}
+        {% if item.report != blank %}
+          <a class="card-link" href="{{ item.report | relative_url }}">Report</a>
         {% endif %}
         {% if item.project != blank %}
-          <a class="card-link" href="{{ item.project | relative_url }}">Documentation</a>
+          <a class="card-link" href="{{ item.project | relative_url }}">{{ item.project_label | default: 'Documentation' }}</a>
+        {% endif %}
+        {% if item.demo != blank %}
+          <a class="card-link" href="{{ item.demo }}">Demo</a>
         {% endif %}
       </p>
     {% endif %}

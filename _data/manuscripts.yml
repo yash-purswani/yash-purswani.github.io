@@ -2,7 +2,7 @@
 # These are NOT published papers — the `status` string is displayed verbatim.
 # Add pdf/arxiv/doi/code only when a real link exists.
 - title: Rule-Constrained Adversarial Scenario Generation
-  venue: IEEE Intelligent Vehicles Symposium (IV)
+  # venue: IEEE Intelligent Vehicles Symposium (IV)
   year:
   status: Manuscript in preparation
   pdf:
@@ -10,10 +10,10 @@
   doi:
   code:
 - title: Finite-Time Centroid Tracking and Exponential Formation Stabilization in Arbitrary Swarm Configurations
-  venue: IEEE Control Systems Letters (LCSS) / IEEE American Control Conference (ACC)
-  year: 2027
-  status: Under Review
+  # venue: IEEE Control Systems Letters (LCSS) / IEEE American Control Conference (ACC)
+  year:
+  status: Manuscript in preparation
   pdf: /assets/pdf/Finite_time_swarm_LCSS.pdf
   arxiv:
   doi:
-  code: https://github.com/yash-purswani/finite-time-swarm
+  code: https://github.com/yash-purswani/finite-time-swarm-control

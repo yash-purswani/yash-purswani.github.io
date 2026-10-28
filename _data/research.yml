@@ -5,6 +5,27 @@
 # `placeholder` fields marked TODO are shown on the site with a visible
 # "placeholder" style so they are never mistaken for real content.
 
+- id: eth-adversarial
+  title: Rule-Constrained Adversarial Scenario Generation
+  affiliation: Institute for Dynamic Systems and Control (IDSC), ETH Zürich
+  role: RobotX 2026 Fellow
+  supervisor: Prof. Emilio Frazzoli
+  date: Jul 2026 – Aug 2026
+  description: "Developed a feasibility-aware reinforcement learning framework for autonomous-vehicle safety validation. By constraining non-ego agent behaviors through feasibility learning, the framework generates realistic, safety-critical adversarial scenarios while significantly curbing unrealistic traffic-rule violations."
+  tags:
+    - Reinforcement Learning
+    - Autonomous Vehicles
+    - Adversarial Scenario Generation
+    - Safety Validation
+    - Feasibility Learning
+  image: /assets/img/projects/eth-adversarial.jpg
+  video: /assets/video/projects/eth-adversarial.mp4
+  alt: Rule-constrained adversarial scenario generation framework at ETH Zürich.
+  paper:
+  code:
+  project_page: https://yash-purswani.github.io/feasible-adv-scenario/
+  presentation: /assets/pdf/RobotX_Project_Presentation.pdf
+
 - id: stuttgart-thesis
   title: Synthetic Database Creation and Active Viewpoint Selection for Zebra Re-Identification
   context: Uncertainty-guided active perception and UV texture completion for 3D animal reconstruction.
@@ -28,26 +49,6 @@
   code:
   project:
 
-- id: eth-adversarial
-  title: Rule-Constrained Adversarial Scenario Generation
-  affiliation: Institute for Dynamic Systems and Control (IDSC), ETH Zürich
-  role: RobotX 2026 Fellow
-  supervisor: Prof. Emilio Frazzoli
-  date: Jul 2026 – Aug 2026
-  description: "Developed a feasibility-aware reinforcement learning framework for autonomous-vehicle safety validation. By constraining non-ego agent behaviors through feasibility learning, the framework generates realistic, safety-critical adversarial scenarios while significantly curbing unrealistic traffic-rule violations."
-  tags:
-    - Reinforcement Learning
-    - Autonomous Vehicles
-    - Adversarial Scenario Generation
-    - Safety Validation
-    - Feasibility Learning
-  image: /assets/img/projects/eth-adversarial.jpg
-  video: /assets/video/projects/eth-adversarial.mp4
-  alt: Rule-constrained adversarial scenario generation framework at ETH Zürich.
-  paper:
-  code:
-  project:
-
 - id: swarm-control
   title: Finite-Time Centroid Tracking and Exponential Formation Stabilization in Arbitrary Swarm Configurations
   affiliation: Distributed Intelligence & Robotics Lab (DIRo Lab), Department of Mechanical Engineering, IIT Madras
@@ -65,6 +66,6 @@
   image: /assets/img/projects/swarm-control.jpg
   video: /assets/video/projects/swarm-control.mp4
   alt: Finite-time centroid tracking and swarm formation stabilization at IIT Madras.
-  paper:
-  code:
-  project:
+  paper: /assets/pdf/Finite_time_swarm_LCSS.pdf
+  code: https://github.com/yash-purswani/finite-time-swarm-control
+  project_page: https://yash-purswani.github.io/finite-time-swarm-control/

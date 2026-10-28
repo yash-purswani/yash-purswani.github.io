@@ -5,7 +5,7 @@ permalink: /cv/
 description: Education, research experience, manuscripts in preparation, honors and technical skills.
 nav: true
 nav_order: 4
-cv_pdf: /assets/pdf/yash_purswani_cv.pdf
+cv_pdf: /assets/pdf/Yash_CV.pdf
 ---
 
 {% assign cv_url = page.cv_pdf | relative_url %}

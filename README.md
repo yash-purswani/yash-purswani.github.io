@@ -12,7 +12,7 @@ Live at <https://yash-purswani.github.io/>.
 | About (`/`) | `_pages/about.md` | `_data/profile.yml`, `_news/*.md` |
 | Research (`/research/`) | `_pages/research.md` | `_data/research.yml`, `_data/manuscripts.yml` |
 | Projects (`/projects/`) | `_pages/projects.md` | `_data/projects.yml` |
-| CV (`/cv/`) | `_pages/cv.md` | `assets/pdf/yash_purswani_cv.pdf` |
+| CV (`/cv/`) | `_pages/cv.md` | `assets/pdf/Yash_CV.pdf` |
 
 Cards are rendered from YAML by `_includes/work-card.liquid` (via the
 `research-card` / `project-card` wrappers) and `_includes/card-media.liquid`.

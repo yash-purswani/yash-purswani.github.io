@@ -43,16 +43,16 @@ GIF; keep clips short and compressed.
 No fake links exist anywhere. Add real URLs to `_data/research.yml` /
 `_data/projects.yml` and the corresponding button appears.
 
-| Project | Missing |
+| Project | Status / Missing |
 |---|---|
 | Master's thesis | `paper`, `code`, `project` |
-| ETH adversarial scenarios | `paper`, `code`, `project` |
+| ETH adversarial scenarios | ✅ `project_page` set, ✅ `presentation` set |
 | Swarm control | `paper`, `code`, `project` (the CV has a `\href{put link}` stub) |
-| 3D reconstruction | ✅ `code` set; `demo`, `project` missing |
-| Road dust collector | `code`, `demo`, `project` |
+| 3D reconstruction | ✅ `code` set, ✅ `project` (Documentation) set, ✅ `report` set |
+| Road dust collector | ✅ `presentation` button set (points to `assets/pdf/ARDC_Presentation.pdf`); `code`, `demo` missing |
 | UAV–UGV rendezvous | `code`, `demo`, `project` |
-| BOLT | `code`, `demo`, `project` |
-| Vidyut | `code`, `demo`, `project` |
+| BOLT | ✅ `project` (Documentation) set; `code`, `demo` missing |
+| Vidyut | ✅ `report` set; `code`, `demo` missing |
 
 Manuscripts (`_data/manuscripts.yml`) need `pdf`, `arxiv`, `doi` and `code` for
 both entries. Both are labelled **Manuscript in preparation** and must stay that
@@ -71,20 +71,6 @@ none of them are guesses any more.
 
 Fix the date in the filename **and** the `date:` front matter, then delete the
 `[confirm …]` span from the body.
-
-## 6. CV PDF
-
-`assets/pdf/yash_purswani_cv.pdf` is a copy of the `Yash_CV.pdf` you supplied
-(2 pages). Replace that file whenever you recompile `robotics.tex`.
-
-## 7. Content differences worth reconciling
-
-- The site says **30+** Team Abhiyaan members, matching `robotics.tex`. Your
-  brief said 40+ — if 40+ is right, update both.
-- The swarm project runs **Sep 2025 – Sep 2026** per the CV. Your brief said
-  "Sep 2025 – Present".
-- The site says Vidyut's stack is **ROS2** per the CV; your brief listed both
-  ROS and ROS2 as tags (both tags are shown).
 
 ## Adding news later
 
