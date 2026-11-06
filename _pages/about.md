@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>B.Tech. Mechanical Engineering</p>
-    <p>M.Tech. Data Science and Artificial Intelligence</p>
+    <p>M.Tech. Data Science</p>
     <p>IIT Madras</p>
 
 social: true
@@ -29,8 +29,6 @@ and in Data Science & Artificial Intelligence. My research focuses on autonomous
 at the intersection of multi-robot coordination, motion planning and control, robot perception, and reinforcement 
 learning. I am interested in developing reliable and scalable methods for robotic autonomy, combining theoretical 
 guarantees with learning-based approaches and real-world deployment.
-
-Autonomous robots need to make reliable decisions when operating in uncertain environments, coordinating with other agents, and respecting the constraints of the physical world. My research aims at achieving reliable and scalable autonomy by combining the structure and guarantees offered by control theory with the adaptability of learning-based approaches, especially in the area of multi-robot coordination and decision-making. This requires robots to perceive their surroundings, reason about the interactions involved, and act collectively even in limited information and changing conditions. My three years of experience with [Team Abhiyaan](/projects/#team-abhiyaan), the premier robotics team at IIT Madras, has complemented my research with practical experience with building and deploying complete autonomy systems on real vehicles, ensuring that my work is grounded on the sensing, computing, dynamics, and integration problems encountered in real-world robotic systems.
 
 <h2 id="research-interests">research interests</h2>
 

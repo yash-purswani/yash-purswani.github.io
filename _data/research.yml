@@ -23,8 +23,8 @@
   alt: Rule-constrained adversarial scenario generation framework at ETH Zürich.
   paper:
   code:
-  project_page: https://yash-purswani.github.io/feasible-adv-scenario/
   presentation: /assets/pdf/RobotX_Project_Presentation.pdf
+  project_page: https://yash-purswani.github.io/feasible-adv-scenario/
 
 - id: stuttgart-thesis
   title: Synthetic Database Creation and Active Viewpoint Selection for Zebra Re-Identification
@@ -50,7 +50,7 @@
   project:
 
 - id: swarm-control
-  title: Finite-Time Centroid Tracking and Exponential Formation Stabilization in Arbitrary Swarm Configurations
+  title: Safety and Connectivity Certification for Finite-Time Swarm Formation Tracking
   affiliation: Distributed Intelligence & Robotics Lab (DIRo Lab), Department of Mechanical Engineering, IIT Madras
   role: Research Project
   supervisor: Prof. Anuj Kumar Tiwari
@@ -66,6 +66,6 @@
   image: /assets/img/projects/swarm-control.jpg
   video: /assets/video/projects/swarm-control.mp4
   alt: Finite-time centroid tracking and swarm formation stabilization at IIT Madras.
-  paper: /assets/pdf/Finite_time_swarm_LCSS.pdf
+  paper: /assets/pdf/Finite_time_swarm.pdf
   code: https://github.com/yash-purswani/finite-time-swarm-control
   project_page: https://yash-purswani.github.io/finite-time-swarm-control/

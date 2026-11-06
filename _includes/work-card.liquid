@@ -65,9 +65,6 @@
         {% if item.code != blank %}
           <a class="card-link" href="{{ item.code }}">Code</a>
         {% endif %}
-        {% if item.project_page != blank %}
-          <a class="card-link" href="{{ item.project_page | relative_url }}">Project Page</a>
-        {% endif %}
         {% if item.presentation != blank %}
           <a class="card-link" href="{{ item.presentation | relative_url }}">Presentation</a>
         {% endif %}
@@ -79,6 +76,9 @@
         {% endif %}
         {% if item.demo != blank %}
           <a class="card-link" href="{{ item.demo }}">Demo</a>
+        {% endif %}
+        {% if item.project_page != blank %}
+          <a class="card-link" href="{{ item.project_page | relative_url }}">Project Page</a>
         {% endif %}
       </p>
     {% endif %}
