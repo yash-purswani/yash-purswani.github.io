@@ -20,8 +20,8 @@ announcements:
   scrollable: false
   limit: 8
 
+publications: true
 honors: true
-technical_profile: true
 ---
 
 I am a robotics researcher at IIT Madras, pursuing an inter-disciplinary dual degree in Mechanical Engineering
@@ -63,7 +63,13 @@ guarantees with learning-based approaches and real-world deployment.
   <li class="entry entry--{{ a.status | downcase }}">
     <div class="entry-main">
       <span class="entry-status">{{ a.status }}</span>
-      <span class="entry-title">{{ a.institution }}</span>
+      <span class="entry-title">
+        {% if a.link %}
+          <a href="{{ a.link | relative_url }}">{{ a.institution }}</a>
+        {% else %}
+          {{ a.institution }}
+        {% endif %}
+      </span>
       <span class="entry-sub">{{ a.unit }}</span>
       <span class="entry-detail">{{ a.role }}{% if a.supervisor %} · {{ a.supervisor }}{% endif %}</span>
     </div>

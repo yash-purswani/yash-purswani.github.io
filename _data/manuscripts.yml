@@ -1,19 +1,15 @@
-# Manuscripts in preparation, rendered at the bottom of /research/.
-# These are NOT published papers — the `status` string is displayed verbatim.
-# Add pdf/arxiv/doi/code only when a real link exists.
+# Manuscripts and preprints
+- title: Safety and Connectivity Certificates for Finite-Time Formation Transitions
+  venue: European Control Conference (ECC)
+  year: 2027
+  status: Submitted
+  pdf: /assets/pdf/Finite_time_swarm.pdf
+  arxiv: https://arxiv.org/abs/2611.13927
+  code: https://github.com/yash-purswani/finite-time-swarm-control
+
 - title: Rule-Constrained Adversarial Scenario Generation
-  # venue: IEEE Intelligent Vehicles Symposium (IV)
-  year:
   status: Manuscript in preparation
   pdf:
   arxiv:
   doi:
   code:
-- title: Safety and Connectivity Certification for Finite-Time Swarm Formation Tracking
-  # venue: IEEE Control Systems Letters (LCSS) / IEEE American Control Conference (ACC)
-  year:
-  status: Manuscript in preparation
-  pdf: /assets/pdf/Finite_time_swarm.pdf
-  arxiv:
-  doi:
-  code: https://github.com/yash-purswani/finite-time-swarm-control

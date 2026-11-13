@@ -54,13 +54,16 @@
     {% endif %}
 
     {% assign has_links = false %}
-    {% if item.paper != blank or item.code != blank or item.project_page != blank or item.project != blank or item.presentation != blank or item.report != blank or item.demo != blank %}
+    {% if item.paper != blank or item.arxiv != blank or item.code != blank or item.project_page != blank or item.project != blank or item.presentation != blank or item.report != blank or item.demo != blank %}
       {% assign has_links = true %}
     {% endif %}
     {% if has_links %}
       <p class="card-links">
         {% if item.paper != blank %}
           <a class="card-link" href="{{ item.paper }}">Paper</a>
+        {% endif %}
+        {% if item.arxiv != blank %}
+          <a class="card-link" href="{{ item.arxiv }}">arXiv</a>
         {% endif %}
         {% if item.code != blank %}
           <a class="card-link" href="{{ item.code }}">Code</a>

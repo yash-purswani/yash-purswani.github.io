@@ -18,7 +18,7 @@
     - Adversarial Scenario Generation
     - Safety Validation
     - Feasibility Learning
-  image: /assets/img/projects/eth-adversarial.jpg
+  image: /assets/img/projects/adversarial.png
   video: /assets/video/projects/eth-adversarial.mp4
   alt: Rule-constrained adversarial scenario generation framework at ETH Zürich.
   paper:
@@ -50,7 +50,7 @@
   project:
 
 - id: swarm-control
-  title: Safety and Connectivity Certification for Finite-Time Swarm Formation Tracking
+  title: Safety and Connectivity Certificates for Finite-Time Formation Transitions
   affiliation: Distributed Intelligence & Robotics Lab (DIRo Lab), Department of Mechanical Engineering, IIT Madras
   role: Research Project
   supervisor: Prof. Anuj Kumar Tiwari
@@ -63,9 +63,10 @@
     - Formation Control
     - Input-to-State Stability
     - Sliding-Mode Control
-  image: /assets/img/projects/swarm-control.jpg
+  image: /assets/img/projects/finite_time_swarm.png
   video: /assets/video/projects/swarm-control.mp4
   alt: Finite-time centroid tracking and swarm formation stabilization at IIT Madras.
   paper: /assets/pdf/Finite_time_swarm.pdf
+  arxiv: https://arxiv.org/abs/2611.13927
   code: https://github.com/yash-purswani/finite-time-swarm-control
   project_page: https://yash-purswani.github.io/finite-time-swarm-control/

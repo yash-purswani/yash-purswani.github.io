@@ -12,12 +12,3 @@ nav_order: 2
   {% include research-card.liquid item=item %}
 {% endfor %}
 </div>
-
-<h2 id="manuscripts">manuscripts</h2>
-
-<p class="section-note">
-  The following manuscripts are in preparation. They are not yet published, and no
-  preprint or DOI is available at this time.
-</p>
-
-{% include manuscripts.liquid %}

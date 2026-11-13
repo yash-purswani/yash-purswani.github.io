@@ -1,0 +1,24 @@
+# Publications rendered on the about page (_includes/publications.liquid).
+# Styled in the al-folio bibliography layout (similar to zhexianli-usc.github.io).
+
+- id: purswani2026safety
+  title: "Safety and Connectivity Certificates for Finite-Time Formation Transitions"
+  abbr: "ECC"
+  preview: "/assets/img/projects/finite_time_swarm.png"
+  authors: "<em>Yash Purswani</em>, Shivansh Agarwal, and Anuj Tiwari"
+  venue: "Submitted to European Control Conference (ECC)"
+  year: "2027"
+  arxiv: "https://arxiv.org/abs/2611.13927"
+  pdf: "/assets/pdf/Finite_time_swarm.pdf"
+  code: "https://github.com/yash-purswani/finite-time-swarm-control"
+  project_page: "https://yash-purswani.github.io/finite-time-swarm-control/"
+  abstract: "Finite-time formation transitions are useful for coordinating multi-agent systems in time-critical missions, but convergence to a prescribed formation in finite time does not guarantee collision avoidance or communication connectivity during the transition. Existing approaches address finite-time coordination and safety-constrained formation control, yet explicit connections between disagreement during transitions, formation geometry, and coupling-gain selection need to be developed for certifying safe maneuvers. This paper develops a disagreement-based framework for certifying transient safety and connectivity during finite-time tracking of arbitrary prescribed formation trajectories. Local feedback guarantees exact finite-time tracking with a graph-independent settling-time bound, while a graph-dependent disagreement bound is used to derive sufficient geometric conditions for collision avoidance and connectivity preservation. These conditions further yield an offline coupling-gain selection rule based on the available geometric clearance. Numerical simulations illustrate the tradeoff between convergence rate and control effort as the coupling gain increases. They also demonstrate the effectiveness and conservatism of the proposed certificates."
+
+- id: purswani2026adversarial
+  title: "Rule-Constrained Adversarial Scenario Generation"
+  preview: "/assets/img/projects/adversarial.png"
+  authors: "<em>Yash Purswani</em>, Yueshan Li, Matteo Penlington, Lorenzo Fiaschi, and Emilio Frazzoli"
+  venue: "Manuscript in preparation"
+  project_page: "https://yash-purswani.github.io/feasible-adv-scenario/"
+  presentation: "/assets/pdf/RobotX_Project_Presentation.pdf"
+  abstract: "Safety validation of autonomous vehicles (AVs) demands rigorous evaluation against critical, low-probability traffic events that are exceedingly rare in naturalistic road driving. Adversarial scenario generation offers an effective, automated solution by learning reactive non-ego policies that actively challenge the ego planner in simulation. However, existing adversarial methods frequently optimize for collision rates at the expense of behavioral realism—generating unnatural, traffic-rule-violating maneuvers (such as abrupt wrong-way driving, boundary incursions, or severe right-of-way infractions) that undermine the credibility and validity of the evaluation test cases.<br><br>To resolve this limitation, this paper introduces a feasibility-aware framework for generating safety-critical driving scenarios while enforcing strict traffic-rule compliance for non-ego adversarial agents. Grounded in Hamilton-Jacobi reachability theory, our approach pre-trains a feasibility value network offline from naturalistic driving demonstrations to approximate the Largest Feasible Region (LFR) governed by drivable areas, speed limits, and right-of-way conventions. During online adversarial reinforcement learning, the learned feasibility function plays a dual role: it constrains non-ego agents toward rule-compliant actions via feasibility advantages, while rewarding adversarial behaviors that guide the ego AV into states from which subsequent rule violations or collisions are unavoidable.<br><br>We evaluate the framework in the CARLA simulator across diverse road topologies, including intersection negotiations and straight-lane urban corridors, against established adversarial generation baselines. The evaluation demonstrates that our data-driven feasibility network achieves high fidelity against ground-truth traffic-rule constraints, while our dual-feasibility policy effectively exposes ego planner vulnerabilities and achieves a 66.2% reduction in non-ego rule infractions."

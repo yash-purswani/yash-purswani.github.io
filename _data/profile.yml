@@ -22,12 +22,14 @@ education:
 affiliations:
   - status: Current
     institution: Universität Stuttgart
+    link: /research/#stuttgart-thesis
     unit: Institute of Flight Mechanics and Control (IFR)
     role: Master's Thesis · DAAD KOSPIE Scholar
     supervisor: Prof. Aamir Ahmad
     date: Sep 2026 – Mar 2027
   - status: Previous
     institution: ETH Zürich
+    link: /research/#eth-adversarial
     unit: Institute for Dynamic Systems and Control (IDSC)
     role: RobotX 2026 Fellow
     supervisor: Prof. Emilio Frazzoli
@@ -35,8 +37,10 @@ affiliations:
 
 awards:
   - title: RobotX 2026 Fellow, ETH Zürich
+    link: /research/#eth-adversarial
     detail: Selected for a competitive robotics research fellowship.
   - title: DAAD KOSPIE 2026 Scholar
+    link: /research/#stuttgart-thesis
     detail: Selected for a master's thesis exchange at Universität Stuttgart.
   - title: IROS RoboRacer 2026 — 7th Overall 
     detail: Among 30+ internationally qualified teams at the 6th IROS RoboRacer Sim Racing League.
